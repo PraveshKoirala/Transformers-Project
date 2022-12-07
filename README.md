@@ -1,5 +1,5 @@
 # Transformers-Project
-Transit Delay Time prediction using Time Series Transformers
+Transit Delay Time prediction using Time Series Transformers. Parts of the code are based on https://github.com/tdjuly/TimeSeriesTransformer
 
 ## Problem Statement
 In fixed line transit system, it is desirable to not be delayed at all. Since it's not alwayspossible to do so, the next desirable thing would be to accurately forecast the amount of delayso that it may be communicated to the customers. This project is centered around creating one suchmodel that takes in predictors like weather, temperature, school break information, holidays, humidity,etc. and predicts an expected delay for a given route segment for a given time of the day.
@@ -23,9 +23,15 @@ Garnett, R. (eds.), Advances in Neural Information Processing Systems 30, pp. 59
 Inc., 2017.
 - Wen, Q., Zhou, T., Zhang, C., Chen, W., Ma, Z., Yan, J., & Sun, L. (2022). Transformers in time series: A survey. arXiv preprint arXiv:2202.07125.
 - Zeng, A., Chen, M., Zhang, L., & Xu, Q. (2022). Are Transformers Effective for Time Series Forecasting?. arXiv preprint arXiv:2205.13504.
+- Cai, Ling, et al. "Traffic transformer: Capturing the continuity and periodicity of time series for traffic forecasting." Transactions in GIS 24.3 (2020): 736-755.
+- Cai, Ling, et al. "Traffic transformer: Capturing the continuity and periodicity of time series for traffic forecasting." Transactions in GIS 24.3 (2020): 736-755.
+
+## Video
+TBD
 
 ## Resources
 - [Cdc fluview dashboard.](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html)
 - [Time Series in Python — Exponential Smoothing and ARIMA processes](https://towardsdatascience.com/time-series-in-python-exponential-smoothing-and-arima-processes-2c67f2a52788)
 - [Pearson's Correlation](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 - [Time Series Transformer implementation](https://github.com/tdjuly/TimeSeriesTransformer)
+
