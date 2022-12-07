@@ -6,7 +6,7 @@ In fixed line transit system, it is desirable to not be delayed at all. Since it
 
 Time series transformers are Encoder Decoder transformers that work with continuous time time series predictors. In this project, we not only use the Time Series Transformer but also extend it such that it works with a mix of categorical and continuous predictors.
 
-## References
+## Base Paper
 This project is largely based on the paper "Deep Transformers Model for Time Series Forecasting: An Influenza Case". The details about the paper and an in-depth analysis can be found at https://github.com/PraveshKoirala/Transformers-Paper.
 
 ## HuggingFace Spaces
